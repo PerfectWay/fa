@@ -71,8 +71,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 4600,
-        MaxHealth = 4600,
+        Health = 3700,
+        MaxHealth = 3700,
         RegenRate = 0,
         Shield = {
             ImpactEffects = 'AeonShieldHit01',
@@ -83,7 +83,7 @@ UnitBlueprint {
             PersonalBubble = true,
             RegenAssistMult = 60,
             ShieldEnergyDrainRechargeTime = 5,
-            ShieldMaxHealth = 1300,
+            ShieldMaxHealth = 1200,
             ShieldRechargeTime = 60,
             ShieldRegenRate = 9,
             ShieldRegenStartTime = 3,
@@ -163,7 +163,7 @@ UnitBlueprint {
         BuildCostEnergy = 9600,
         BuildCostMass = 840,
         BuildRate = 3,
-        BuildTime = 4500,#3600
+        BuildTime = 3600,
         MaintenanceConsumptionPerSecondEnergy = 25,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
@@ -247,11 +247,11 @@ UnitBlueprint {
         TransportClass = 3,
     },
     Veteran = {
-        Level1 = 18,
-        Level2 = 36,
-        Level3 = 54,
-        Level4 = 72,
-        Level5 = 90,
+        Level1 = 12,
+        Level2 = 24,
+        Level3 = 36,
+        Level4 = 48,
+        Level5 = 60,
     },
     Weapon = {
         {
@@ -274,7 +274,7 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'FrontTurret01',
-            MaxRadius = 28,
+            MaxRadius = 26,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 30,
@@ -297,7 +297,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 1.25,
+            RateOfFire = 1,
             TargetCheckInterval = 0.6,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
