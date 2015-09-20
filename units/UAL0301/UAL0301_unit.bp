@@ -496,7 +496,7 @@ UnitBlueprint {
             Name = '<LOC enhancements_0031>Reacton Refractor',
             NewDamageRadiusMod = 3.5,
 
-            NewMaxRadius = 40,
+            NewMaxRadius = 35,
             Slot = 'RCH',
             UpgradeUnitAmbientBones = {
                 'UAL0301',
@@ -765,7 +765,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_LowArc',
             ChargeDelay = 0.3,
             CollideFriendly = false,
-            Damage = 300,
+            Damage = 250,
             DamageType = 'Normal',
             DisplayName = 'Reacton Cannon',
             FireTargetLayerCapsTable = {

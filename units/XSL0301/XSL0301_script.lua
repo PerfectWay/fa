@@ -162,9 +162,9 @@ XSL0301 = Class(CommandUnit) {
             self:SetIntelRadius('Vision', bp.NewVisionRadius or 104)
             self:SetIntelRadius('Omni', bp.NewOmniRadius or 104)
             local wep = self:GetWeaponByLabel('LightChronatronCannon')
-            wep:ChangeMaxRadius(bp.NewMaxRadius or 35)
+            wep:ChangeMaxRadius(bp.NewMaxRadius or 32)
             local wep = self:GetWeaponByLabel('OverCharge')
-            wep:ChangeMaxRadius(35)
+            wep:ChangeMaxRadius(32)
         elseif enh == 'EnhancedSensorsRemove' then
             local bpIntel = self:GetBlueprint().Intel
             self:SetIntelRadius('Vision', bpIntel.VisionRadius or 26)

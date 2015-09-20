@@ -329,7 +329,7 @@ UnitBlueprint {
             Icon = 'fc',
             Name = '<LOC enhancements_0093>Disintegrator Amplifier',
             NewDamageMod = 200,
-            NewMaxRadius = 35,
+            NewMaxRadius = 32,
             Slot = 'RCH',
             UpgradeUnitAmbientBones = {
                 'URL0301',
@@ -723,7 +723,7 @@ UnitBlueprint {
             },
             ChargeDelay = 0.5,
             CollideFriendly = false,
-            Damage = 300,
+            Damage = 200,
             DamageType = 'Normal',
             DisplayName = 'Disintegrator Pulse Laser',
             FireTargetLayerCapsTable = {

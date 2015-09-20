@@ -280,7 +280,7 @@ UnitBlueprint {
             BuildTime = 5040,
             Icon = 'acu',
             Name = '<LOC enhancements_0061>Energy Accelerator',
-            NewRateOfFire = 1.82,
+            NewRateOfFire = 2,
             Slot = 'LCH',
             UpgradeUnitAmbientBones = {
                 'UEL0301',
@@ -309,7 +309,7 @@ UnitBlueprint {
             Icon = 'heo',
             Name = '<LOC enhancements_0063>Heavy Plasma Refractor',
             NewDamageRadius = 2,
-            NewMaxRadius = 35,
+            NewMaxRadius = 32,
             ShowBones = {
                 'SAM',
             },
@@ -760,7 +760,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 300,
+            Damage = 200,
             DamageRadius = 0,
             DamageType = 'Normal',
             DisplayName = 'Heavy Plasma Cannon',

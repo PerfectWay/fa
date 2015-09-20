@@ -394,7 +394,7 @@ UnitBlueprint {
             BuildTime = 3100,
             Icon = 'sre',
             Name = '<LOC enhancements_0141>Enhanced Sensor System',
-            NewMaxRadius = 35,
+            NewMaxRadius = 32,
             NewOmniRadius = 60,
             NewVisionRadius = 36,
             ShowBones = {
@@ -770,7 +770,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_LowArc',
             ChargeDelay = 0.3,
             CollideFriendly = false,
-            Damage = 400,
+            Damage = 300,
             DamageType = 'Normal',
             DisplayName = 'Light Chronotron Cannon',
             FireTargetLayerCapsTable = {
