@@ -303,7 +303,7 @@ UnitBlueprint {
         BuildCostEnergy = 350000,
         BuildCostMass = 28000,
         BuildRate = 180,
-        BuildTime = 21000,
+        BuildTime = 63000,
         BuildableCategory = {
             'BUILTBYTIER3FACTORY UEF MOBILE LAND',
             'BUILTBYTIER2FACTORY UEF MOBILE LAND',
@@ -424,11 +424,11 @@ UnitBlueprint {
         TransportClass = 10,
     },
     Veteran = {
-        Level1 = 40,
-        Level2 = 80,
-        Level3 = 120,
-        Level4 = 160,
-        Level5 = 200,
+        Level1 = 80,
+        Level2 = 160,
+        Level3 = 240,
+        Level4 = 320,
+        Level5 = 400,
     },
     Weapon = {
         {

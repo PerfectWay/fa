@@ -226,7 +226,7 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 260000,
         BuildCostMass = 19000,
-        BuildTime = 15750, 
+        BuildTime = 47250, 
         MaintenanceConsumptionPerSecondEnergy = 400,
     },
     General = {
@@ -317,11 +317,11 @@ UnitBlueprint {
         TransportClass = 10,
     },
     Veteran = {
-        Level1 = 45,
-        Level2 = 90,
-        Level3 = 135,
-        Level4 = 180,
-        Level5 = 225,
+        Level1 = 90,
+        Level2 = 180,
+        Level3 = 270,
+        Level4 = 360,
+        Level5 = 450,
     },
     Weapon = {
         {
@@ -391,7 +391,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
             RateOfFire = 10,
-            TargetCheckInterval = 0.3,
+            TargetCheckInterval = 0.1,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
                 'EXPERIMENTAL',

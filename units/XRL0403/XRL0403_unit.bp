@@ -221,7 +221,7 @@ UnitBlueprint {
         BuildCostEnergy = 437500,
         BuildCostMass = 37500,
         BuildRate = 180,
-        BuildTime = 18750,
+        BuildTime = 56250,
         BuildableCategory = {
             'xrl0002',
             'xrl0003',
@@ -304,11 +304,11 @@ UnitBlueprint {
         TransportClass = 10,
     },
     Veteran = {
-        Level1 = 90,
-        Level2 = 180,
-        Level3 = 270,
-        Level4 = 360,
-        Level5 = 450,
+        Level1 = 150,
+        Level2 = 300,
+        Level3 = 450,
+        Level4 = 600,
+        Level5 = 750,
     },
     Weapon = {
         {

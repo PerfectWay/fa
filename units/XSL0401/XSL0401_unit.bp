@@ -196,7 +196,7 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 312500,
         BuildCostMass = 25000,
-        BuildTime = 18750,
+        BuildTime = 56250,
     },
     General = {
         Category = 'Direct Fire',
@@ -272,11 +272,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 70,
-        Level2 = 140,
-        Level3 = 210,
-        Level4 = 280,
-        Level5 = 350,
+        Level1 = 120,
+        Level2 = 240,
+        Level3 = 360,
+        Level4 = 480,
+        Level5 = 600,
     },
     Weapon = {
         {   
