@@ -1,4 +1,4 @@
-#****************************************************************************
+﻿#****************************************************************************
 #**
 #**  File     :  /data/units/XSL0305/XSL0305_script.lua
 #**
@@ -35,7 +35,7 @@ XSL0305 = Class(SLandUnit) {
         SLandUnit.OnScriptBitSet(self, bit)
         if bit == 1 then 
             local bp = self:GetBlueprint()
-            self:SetSpeedMult(bp.Physics.LandSpeedMultiplier * 0.75)
+            self:SetSpeedMult(bp.Physics.LandSpeedMultiplier * 0.85)
 
             self:SetWeaponEnabledByLabel('SniperGun', true)
             self:SetWeaponEnabledByLabel('MainGun', false)
