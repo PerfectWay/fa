@@ -148,7 +148,7 @@ UnitBlueprint {
         BuildCostEnergy = 210000,
         BuildCostMass = 15000,
         BuildRate = 1080,
-        BuildTime = 10453,
+        BuildTime = 20906,
         RebuildBonusIds = {
             'xsb2305',
         },
