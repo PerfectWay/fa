@@ -39,6 +39,8 @@ local escapeHandlers = {}
 -- @see PopEscapeHandler
 function PushEscapeHandler(handler)
     table.insert(escapeHandlers, handler)
+    LOG("PushEscapeHandler")
+    LOG(table.getn(escapeHandlers))
 end
 
 --- Remove the current escape handler and restore the previous one pushed.
@@ -49,6 +51,8 @@ function PopEscapeHandler()
         return
     end
     table.remove(escapeHandlers)
+    LOG("PopEscapeHandler")
+    LOG(table.getn(escapeHandlers))
 end
 
 --- Default escape handler
