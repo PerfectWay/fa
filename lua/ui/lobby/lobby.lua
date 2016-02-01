@@ -584,13 +584,7 @@ function JoinGame(address, asObserver, playerName, uid)
 end
 
 function ConnectToPeer(addressAndPort,name,uid)
-    if not string.find(addressAndPort, '127.0.0.1') then
-        LOG("ConnectToPeer (name=" .. name .. ", uid=" .. uid .. ", address=" .. addressAndPort ..")")
-    else
-        DisconnectFromPeer(uid)
-        LOG("ConnectToPeer (name=" .. name .. ", uid=" .. uid .. ", address=" .. addressAndPort ..", USE PROXY)")
-        table.insert(ConnectedWithProxy, uid)
-    end
+    LOG("ConnectToPeer (name=" .. name .. ", uid=" .. uid .. ", address=" .. addressAndPort ..")")
     lobbyComm:ConnectToPeer(addressAndPort,name,uid)
 end
 
@@ -829,11 +823,7 @@ function SetSlotInfo(slotNum, playerInfo)
         slot.name._text:SetFont('Arial Gras', 15)
         if not table.find(ConnectionEstablished, playerName) then
             if playerInfo.Human and not isLocallyOwned then
-                if table.find(ConnectedWithProxy, playerInfo.OwnerID) then
-                    AddChatText(LOCF("<LOC Engine0004>Connection to %s established.", playerName)..' (FAF Proxy)', "Engine0004")
-                else
-                    AddChatText(LOCF("<LOC Engine0004>Connection to %s established.", playerName), "Engine0004")
-                end
+                AddChatText(LOCF("<LOC Engine0004>Connection to %s established.", playerName))
 
                 table.insert(ConnectionEstablished, playerName)
                 for k, v in CurrentConnection do
@@ -3140,9 +3130,6 @@ function CalcConnectionStatus(peer)
             slot.name._text:SetFont('Arial Gras', 15)
             if not table.find(ConnectionEstablished, peer.name) then
                 if playerInfo.Human and not IsLocallyOwned(peerSlot) then
-                    if table.find(ConnectedWithProxy, peer.id) then
-                        AddChatText(LOCF("<LOC Engine0032>Connected to %s via the FAF proxy.", peer.name), "Engine0032")
-                    end
                     table.insert(ConnectionEstablished, peer.name)
                     for k, v in CurrentConnection do -- Remove PlayerName in this Table
                         if v == peer.name then
